@@ -23,6 +23,7 @@ See the full dataset in [diabetic_retinopathy](diabetic_retinopathy)
 ![dr_vs_normal_count](images/dr_vs_normal_count.png)
 
 ## Modeling
+
 Utilizing and iterating through deep neural networks to find the model with highest recall score.
 
 ![normal_image](images/normal_image.png)
@@ -30,3 +31,16 @@ Utilizing and iterating through deep neural networks to find the model with high
 ![diabetic_retinopathy_image](images/diabetic_retinopathy_image.png)
 
 ## Evaluation
+
+VGG19 model is the best model with a recall score of 95%
+
+![confusion_matrix](images/confusion_matrix.png)
+
+Here we have a confusion matrix which tells us the amount of True Positives (top left corner), False Positives (bottom left corner), False Negatives (top right corner), and True Negatives (bottom right corner). False negatives are the most detrimental of the four. A false negative in this scenario is when our model predicts the image to be normal, when in reality, there is diabetic retinopathy. This is extremely harmful to the patient as this misdiagnosis can potentially lead to vision loss as diabetic retinopathy was not identified and therefore not treated. Our model has only identified 6 false negatives.
+
+![lime](images/lime.png)
+
+We can use LIME to help us interpret the model's results. LIME (Local Interpretable Model-agnostic Explanations) is used as an explanation of the model in how it reads and digests the image to make its decision. In the image above, we can see that the model is looking at the part of the image within the yellow outline to show us where the model sees diabetic retinopathy within the eye and therefore classifies the image as having diabetic retinopathy. LIME is also helpful to us as it can be used help an opthalmologist make a diagnosis faster by viewing the outlined part of the retinal image and help make a diagnosis.
+
+## Conclusion
+
