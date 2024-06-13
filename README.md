@@ -25,7 +25,7 @@ See the full dataset in [diabetic_retinopathy](diabetic_retinopathy)
 ## Modeling
 Utilizing and iterating through deep neural networks to find the model with highest recall score.
 
-![normal_image](images/normal_chest_xray.png)
+![normal_image](images/normal_image.png)
 
 ![diabetic_retinopathy_image](images/pneumonia_chest_xray.png)
 
