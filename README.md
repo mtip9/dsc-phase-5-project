@@ -44,3 +44,19 @@ We can use LIME to help us interpret the model's results. LIME (Local Interpreta
 
 ## Conclusion
 
+The best and final model we found based on recall score was our VGG19 model. This model has a recall score of 95%. We would recommend that the hospital use this model to feed retinal images so that an opthamologist can use the model's prediction to help determine a diagnosis of diabetic retinopathy or not. We would also recommend that the opthamologist use LIME to aid diagnosis assistance by making more accurate and quicker diagnoses using LIME outlines.
+
+## For More Information
+
+See the full analysis in the [Jupyter Notebook](chest_xray_analysis.ipynb) or review [Presentation](chest_xray_presentation.pdf)
+
+## Repository Structure
+
+```
+├── chest_x_ray
+├── images
+├── .gitignore
+├── README.md
+├── chest_xray_analysis
+└── chest_xray_presentation
+```
