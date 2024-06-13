@@ -48,15 +48,15 @@ The best and final model we found based on recall score was our VGG19 model. Thi
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](chest_xray_analysis.ipynb) or review [Presentation](chest_xray_presentation.pdf)
+See the full analysis in the [Jupyter Notebook](diabetic_retinopathy_analysis.ipynb) or review [Presentation](chest_xray_presentation.pdf)
 
 ## Repository Structure
 
 ```
-├── chest_x_ray
+├── diabetic_retinopathy
 ├── images
 ├── .gitignore
 ├── README.md
-├── chest_xray_analysis
-└── chest_xray_presentation
+├── diabetic_retinopathy_analysis
+└── diabetic_retinopathy_presentation
 ```
