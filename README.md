@@ -27,6 +27,6 @@ Utilizing and iterating through deep neural networks to find the model with high
 
 ![normal_image](images/normal_image.png)
 
-![diabetic_retinopathy_image](images/pneumonia_chest_xray.png)
+![diabetic_retinopathy_image](images/diabetic_retinopathy_image.png)
 
 ## Evaluation
