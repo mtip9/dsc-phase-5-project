@@ -20,6 +20,6 @@ Data link: https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retino
 
 See the full dataset in [diabetic_retinopathy](diabetic_retinopathy) 
 
-![dr_vs_normal_count](images/normal_vs_pneumonia_count.png)
+![dr_vs_normal_count](images/dr_vs_normal_count.png)
 
 ## Modeling
