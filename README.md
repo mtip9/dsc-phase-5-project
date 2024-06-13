@@ -18,7 +18,7 @@ This data comes from Kaggle and is provided by user Parisa Karimi Darabi. The da
 
 Data link: https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy/data
 
-See the full dataset in [diabetic_retinopathy](chest_x_ray) 
+See the full dataset in [diabetic_retinopathy](diabetic_retinopathy) 
 
 ![dr_vs_normal_count](images/normal_vs_pneumonia_count.png)
 
